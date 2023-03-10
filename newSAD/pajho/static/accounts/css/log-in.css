@@ -1,0 +1,156 @@
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url("../font/Vazir-Thin.ttf");
+  }
+*{
+    font-family:myFirstFont;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+    direction: "ltr";
+}
+#logo img{
+    max-width: 50px;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+#logo a {
+    color: #FFFFFF;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+#logo a:hover {
+    color: #e6e5e5; 
+    font-size: 3.4rem;
+    cursor: pointer;
+}
+#logo img:hover{
+    cursor: pointer;
+    max-width: 48px;
+}
+header a {
+    color: #F1F1F1;
+    font-size: 2.5rem;
+}
+.header_nav:hover{
+    cursor: pointer;
+    color: #e6e5e5;
+    font-size: 2.4rem;
+}
+header{
+    top:0; left: 0; right:0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 70px;
+    padding:2rem 4%;
+    background-color: #1C51C5;
+    height: 100px;
+}
+
+body{
+    background-color: #F9F9F9;
+    overflow:hidden;
+}
+#heading img{
+    max-width: 50px;
+}
+#heading p{
+    font-size: 4rem;
+    margin-left: 50px;
+}
+
+#heading{
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.login-form-container{
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    margin-top: 6rem;   
+    background-color: #FFFFFF;
+}
+#main-section{
+    display: flex;
+    flex-direction: row;
+}
+#main-section-img {
+    width: 885px;
+    margin-left: 120px;
+    overflow: hidden;
+}
+#main-section input{
+    border-radius: 7px;
+    width: 300px;
+    padding: 10px;
+    height: 40px;
+    font-size: 2rem;
+    color: #111;
+    background-color:#FFFFFF;
+    border: 1px solid #11111122;
+}
+#register{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+#register a{
+    color: #1C51C5;
+    margin-right: 1rem;
+}
+#register a:hover {
+    font-weight:900;
+}
+#log-in-containre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+}
+#buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#log-in{
+    background-color: #3460bfdd;
+    color: #F1F1F1;
+    width: 110px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 2.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px 140px;
+    margin-bottom: 2rem;
+}
+#main-section p:hover{
+    cursor: default;
+}
+#log-in:hover {
+    background-color: #1C51C5;
+    cursor: pointer;
+}
