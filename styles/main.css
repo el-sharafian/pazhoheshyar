@@ -1,0 +1,137 @@
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url("../font/Vazir-Thin.ttf");
+  }
+*{
+    font-family:myFirstFont;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+    direction: "ltr";
+}
+#logo img{
+    max-width: 50px;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+#logo a {
+    color: #FFFFFF;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+#logo a:hover {
+    color: #e6e5e5; 
+    font-size: 3.4rem;
+    cursor: pointer;
+}
+#logo img:hover{
+    cursor: pointer;
+    max-width: 48px;
+}
+header a {
+    color: #F1F1F1;
+    font-size: 2.5rem;
+}
+.header_nav:hover{
+    cursor: pointer;
+    color: #e6e5e5;
+    font-size: 2.4rem;
+}
+header{
+    top:0; left: 0; right:0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 70px;
+    padding:2rem 4%;
+    background-color: #1C51C5;
+    height: 100px;
+}
+
+body{
+    background-color: #F9F9F9;
+    overflow:hidden;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+#main-section{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e5e5;
+}
+#main-section p:hover{
+    cursor: default;
+}
+#main-section p {
+    font-size: 2rem;
+}
+h2{
+    font-size: 3rem;
+    color: #0f3da1;
+}
+.info {
+    display: flex;
+    /* height: 70%; */
+    gap: 8rem;
+    flex-direction: column;
+}
+.more {
+    display: flex;
+    /* width: 15%; */
+    height: 20%;
+    flex-direction: column;
+    /* justify-content: ; */
+    align-items: end;
+}
+.more a {
+    /* margin-bottom: 5rem; */
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    color: #F1F1F1;
+    background-color: #0b296a;
+}
+.more a:hover {
+    background-color: #0f3da1;
+}
+.sec {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+footer {
+    height: 120px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
